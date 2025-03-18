@@ -1,0 +1,7 @@
+streamlit
+itertools
+gurobipy
+pandas
+numpy
+matplotlib
+requests
