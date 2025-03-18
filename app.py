@@ -193,7 +193,7 @@ with col3:
         "Value": [max_distillation, max_reforming, max_cracking]})
     constraints_df.index = range(1, len(constraints_df) + 1)
     st.dataframe(constraints_df)
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("Raw Materials")
     raw_materials_df = pd.DataFrame(rawMaterials, columns=["Raw Materials"])
